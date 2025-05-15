@@ -36,3 +36,23 @@ Build a machine learning model to predict medical insurance costs and explore re
 5. **Interpretation** – Visualized coefficients and predictions.
 
 ---
+## Learnings
+
+- Feature scaling and encoding impact model performance.
+- Log transformation helped in stabilizing variance.
+- Smoking status is a dominant factor in cost prediction.
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Set up virtual environment (optional)
+python -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the notebook
+jupyter notebook notebooks/insurance_modeling.ipynb
